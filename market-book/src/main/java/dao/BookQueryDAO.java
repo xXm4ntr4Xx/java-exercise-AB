@@ -8,7 +8,6 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 
-
 import model.Book;
 import utilities.BookConnection;
 
@@ -56,5 +55,4 @@ public class BookQueryDAO implements BookInterfaceDAO,Serializable {
 		}
 		return list;
 	}
-
 }
